@@ -11,7 +11,7 @@ No matter which option you choose, please make sure that by the time the course 
 * [download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * download the course VM (coming soon)
 
-#### Option 2: installl git yourself
+#### Option 2: install git yourself
 
 * [download git](https://git-scm.com/downloads)
 * make sure you can run git from the command line
@@ -36,3 +36,6 @@ No matter which option you choose, please make sure that by the time the course 
     * desktop clients
     * remote hosting options, pros and cons
     * git extensions - for special needs
+* using git to get project info - examples 
+    * todoer - assess code quality
+    * rrepo - analyse contributions
