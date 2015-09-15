@@ -20,9 +20,18 @@ No matter which option you choose, please make sure that by the time the course 
 
 * motivation: use cases
 * version control and git
-* fundamental concepts: repos, commits, branches, remotes
+* fundamental concepts: repos, commits, remotes, branches
+* fundamental verbs: log, status, diff, add, commit, clone, pull, push, rebase, branch, blame
 * practical session
     * create a repo
-    * ...
+    * make changes, add and commit them
+    * inspect state/history
+    * clone a repo
+    * get new changes from a remote
+    * push changes to a remote
+    * create a branch
+    * find out who changed what
 * tools
-...
+    * desktop clients
+    * remote hosting options, pros and cons
+    * git extensions - for special needs
