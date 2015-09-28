@@ -48,14 +48,33 @@ git add newfile
 git status
 git add newfile
 git commit -m 'first commit: adding data to newfile'
-git satus
+git status
 
 # ignoring files
+touch .gitignore
+echo "4,5,6" >> somedata.csv
+git status
+echo "*.csv" >> .gitignore
+git status
+git add .gitignore
+git commit -m 'ignore all csv files'
 
 # inspect state/history
 git log
+git diff <hash>
+
+# history with pretty formatting
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 # keep changes for later
+echo "another line of data" >> newfile
+git stash
+git stash show
+git stash apply
+
+# remove files
+git rm newfile
+fit commit -m 'removing newfile from repo'
 
 # clone a repo
 

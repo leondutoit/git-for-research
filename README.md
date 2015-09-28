@@ -27,6 +27,7 @@ No matter which option you choose, please make sure that by the time the course 
     * ignore files
     * inspect state/history
     * keep changes for later
+    * remove files
     * clone a repo
     * get new changes from a remote
     * push changes to a remote
