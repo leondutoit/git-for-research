@@ -131,8 +131,23 @@ git branch newbranch
 
 ### collaborative workflows
 
-* pushing to the same repo
-* forking and pull requests
+To follow along this section you will need to sign up for [github](https://github.com).
+
+#### pushing to the same repo
+
+For this we will use a repo called `test-repo`.
+
+```bash
+STUFF
+```
+
+#### forking and pull requests
+
+For this we will use the `git-for-research` repo.
+
+```bash
+STUFF
+```
 
 ### commands reference
 
@@ -164,8 +179,11 @@ To collaborate you need to host your remote repo somewhere. If you are not going
 
 #### git extensions - for special needs
 
+TODO
 
 ### using git to get project info - examples
-    * todoer - assess code quality
+
+* show things
+* todoer - assess code quality
 
 
