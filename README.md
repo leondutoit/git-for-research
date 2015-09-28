@@ -19,9 +19,8 @@ No matter which option you choose, please make sure that by the time the course 
 ### Course outline
 
 * motivation: use cases
-* version control and git
+* git and version control
 * concepts: `repos`, `commits`, `remotes`, `branches`
-* commands: `log`, `status`, `diff`, `add`, `commit`, `stash`, `clone`, `pull`, `push`, `rebase`, `branch`, `blame`
 * practical session
     * create a repo
     * make changes, add and commit them
@@ -32,10 +31,11 @@ No matter which option you choose, please make sure that by the time the course 
     * push changes to a remote
     * create a branch
     * find out who changed what
+* commands reference: `log`, `status`, `diff`, `add`, `commit`, `stash`, `clone`, `pull`, `push`, `rebase`, `branch`, `blame`
 * tools
     * desktop clients
     * remote hosting options, pros and cons
     * git extensions - for special needs
-* using git to get project info - examples 
+* using git to get project info - examples
     * todoer - assess code quality
     * rrepo - analyse contributions
