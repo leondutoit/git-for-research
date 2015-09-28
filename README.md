@@ -6,6 +6,8 @@ Solve collaboration problems and keep track of changes with version control.
 
 No matter which option you choose, please make sure that by the time the course starts you can open a terminal application on your machine and successfully run `git --help`.
 
+If you need a refresher or an introduction to using the command line then I suggest reading through [learn enough command line to be dangerous](https://www.learnenough.com/command-line-tutorial).
+
 #### Option 1: use a virtual machine
 
 * [download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
@@ -33,11 +35,11 @@ No matter which option you choose, please make sure that by the time the course 
     * push changes to a remote
     * create a branch
     * find out who changed what
+    * moving back in time
 * commands reference: `log`, `status`, `diff`, `add`, `commit`, `stash`, `clone`, `pull`, `push`, `rebase`, `branch`, `blame`
 * tools
     * desktop clients
     * remote hosting options, pros and cons
     * git extensions - for special needs
-* using git to get project info - examples
+* using git to get project info - example
     * todoer - assess code quality
-    * rrepo - analyse contributions

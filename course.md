@@ -27,7 +27,7 @@ Version control, in general, is the management of changes to documents.
 
 ### practical session
 
-We'll take a learning by doing approach...
+We'll take a learning by doing approach. We will work in a repo that we create ourselves and in one we download from the web.
 
 ```bash
 
@@ -77,18 +77,62 @@ git rm newfile
 fit commit -m 'removing newfile from repo'
 
 # clone a repo
+cd ..
+git clone https://github.com/leondutoit/git-for-research.git
+cd git-for-research
+git log
+git remote show origin
+
+# now I will make some changes and push them to this remote
+# then you can sync your local copy
 
 # get new changes from a remote
+# make sure that any local changes are applied on top of mine
+git pull --rebase
+git log
 
-# push changes to a remote
+# create a branch, work on it
+git branch
+git branch feature
+git checkout feature
+echo "this is data another file" >> anotherfile
+git add anotherfile
+git commit -m 'adding a new feature to the project'
 
-# create a branch
+# switch back
+# show which commits are on feature branch but not master
+# apply changes from another branch
+git checkout master
+git log -n 5
+git log feature --not master
+git merge feature
 
 # find out who changed what
+# do this in the git-for-research repo
+cd ..
+cd git-for-research
+git blame README.md
 
+# say you wanted to develop the course notes from a point in time in the past
+# reset the HEAD to a specific point in tie
+# stash away the changes
+# create a new branch and work from there
+git log -n 5
+git reset <hash>
+git stash
+git branch newbranch
 
+# in the extreme case that you want to throw away commited changes
+# _and_ have not shared the commits with anyone else
+# E.g. if you have only commited locally and you want to start over
+# do: git reset --hard <hash>
 
 ```
+
+### collaborative workflows
+
+* pushing to the same repo
+* forking and pull requests
 
 ### commands reference
 
