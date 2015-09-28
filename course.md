@@ -31,11 +31,29 @@ We'll take a learning by doing approach...
 
 ```bash
 
-# create a repo
+# getting help
+git --help
+git <command> --help
 
-# make changes, add and commit them
+# create a repo
+mkdir test-dir
+cd test-dir
+git init
+
+# create a file, make changes, add and commit them
+touch newfile
+echo "here are some changes" > newfile
+git status
+git add newfile
+git status
+git add newfile
+git commit -m 'first commit: adding data to newfile'
+git satus
+
+# ignoring files
 
 # inspect state/history
+git log
 
 # keep changes for later
 
@@ -49,7 +67,7 @@ We'll take a learning by doing approach...
 
 # find out who changed what
 
-# ignoring files
+
 
 ```
 

@@ -24,6 +24,7 @@ No matter which option you choose, please make sure that by the time the course 
 * practical session
     * create a repo
     * make changes, add and commit them
+    * ignore files
     * inspect state/history
     * keep changes for later
     * clone a repo
