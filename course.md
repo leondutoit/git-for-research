@@ -179,10 +179,15 @@ To collaborate you need to host your remote repo somewhere. If you are not going
 
 #### git extensions - for special needs
 
-TODO
+* [git-annex](https://git-annex.branchable.com/walkthrough/): dealing with large files
+* [libgit2](https://libgit2.github.com/) and [libgit2-backends](https://github.com/libgit2/libgit2-backends) - [how to](http://blog.deveo.com/your-git-repository-in-a-database-pluggable-backends-in-libgit2/) store your git objects in databases, for example
+* using [dropbox as your remote](https://github.com/anishathalye/git-remote-dropbox) - note: this is not the same as keeping your repo in the dropbox folder
+* create your own remotes using [remote-helpers](https://www.kernel.org/pub/software/scm/git/docs/gitremote-helpers.html)
+
 
 ### using git to get project info - examples
 
+TODO
 * show things
 * todoer - assess code quality
 
