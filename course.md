@@ -95,7 +95,7 @@ git log
 git branch
 git branch feature
 git checkout feature
-echo "this is data another file" >> anotherfile
+echo "this is data afor nother file" >> anotherfile
 git add anotherfile
 git commit -m 'adding a new feature to the project'
 
@@ -150,9 +150,22 @@ git branch newbranch
 * `blame`: an operation/instruction to display the author and other information of a specific change
 
 ### tools
-    * desktop clients
-    * remote hosting options, pros and cons
-    * git extensions - for special needs
+
+#### desktop clients
+
+We have used the command line interface to git during the course, but graphical user interfaces are also [available](https://git-scm.com/download/gui/linux).
+
+#### remote hosting options, pros and cons
+
+To collaborate you need to host your remote repo somewhere. If you are not going to set up your own then you need to find a hosting option. The following options are all excellent and widely used choices:
+* [github](https://github.com)
+* [gitlab](https://about.gitlab.com/)
+* [bitbucket](https://bitbucket.org/)
+
+#### git extensions - for special needs
+
 
 ### using git to get project info - examples
     * todoer - assess code quality
+
+
