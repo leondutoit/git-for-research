@@ -135,19 +135,11 @@ To follow along this section you will need to sign up for [github](https://githu
 
 #### pushing to the same repo
 
-For this we will use a repo called `test-repo`.
-
-```bash
-STUFF
-```
+TODO
 
 #### forking and pull requests
 
-For this we will use the `git-for-research` repo.
-
-```bash
-STUFF
-```
+You can follow the instruction [on github](https://help.github.com/articles/using-pull-requests/).
 
 ### commands reference
 
@@ -185,10 +177,6 @@ To collaborate you need to host your remote repo somewhere. If you are not going
 * create your own remotes using [remote-helpers](https://www.kernel.org/pub/software/scm/git/docs/gitremote-helpers.html)
 
 
-### using git to get project info - examples
+### using git to gain insight
 
 TODO
-* show things
-* todoer - assess code quality
-
-

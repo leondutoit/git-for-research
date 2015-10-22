@@ -41,5 +41,4 @@ If you need a refresher or an introduction to using the command line then I sugg
     * desktop clients
     * remote hosting options, pros and cons
     * git extensions - for special needs
-* using git to get project info - example
-    * todoer - assess code quality
+* using git to gain insight
