@@ -46,7 +46,6 @@ echo "here are some changes" > newfile
 git status
 git add newfile
 git status
-git add newfile
 git commit -m 'first commit: adding data to newfile'
 git status
 
@@ -71,10 +70,12 @@ echo "another line of data" >> newfile
 git stash
 git stash show
 git stash apply
+git add newfile
+git commit -m 'newfile added'
 
 # remove files
 git rm newfile
-fit commit -m 'removing newfile from repo'
+git commit -m 'removing newfile from repo'
 
 # clone a repo
 cd ..
@@ -94,7 +95,9 @@ git log
 # create a branch, work on it
 git branch
 git branch feature
+git branch
 git checkout feature
+git branch
 echo "this is data afor nother file" >> anotherfile
 git add anotherfile
 git commit -m 'adding a new feature to the project'
@@ -106,11 +109,10 @@ git checkout master
 git log -n 5
 git log feature --not master
 git merge feature
+git log -n 5
 
 # find out who changed what
 # do this in the git-for-research repo
-cd ..
-cd git-for-research
 git blame README.md
 
 # say you wanted to develop the course notes from a point in time in the past
@@ -119,8 +121,10 @@ git blame README.md
 # create a new branch and work from there
 git log -n 5
 git reset <hash>
+git status
 git stash
 git branch newbranch
+git checkout newbranch
 
 # in the extreme case that you want to throw away commited changes
 # _and_ have not shared the commits with anyone else
@@ -131,11 +135,9 @@ git branch newbranch
 
 ### collaborative workflows
 
-To follow along this section you will need to sign up for [github](https://github.com).
-
 #### pushing to the same repo
 
-TODO
+We simulated a small part of this when I made changes and you pulled them with a rebase. Collaboration could be set up so that everyone can push to the same remote. It would then be the responsibility of each contributor to make sure they pull the latest changes and do a local rebase before pusing their own changes to the remote. You can enforce such workflows in the git configuration.
 
 #### forking and pull requests
 
@@ -179,4 +181,4 @@ To collaborate you need to host your remote repo somewhere. If you are not going
 
 ### using git to gain insight
 
-TODO
+Using [gource](http://gource.io/) to visualise repo development. The repository is displayed as a tree where the root of the repository is the centre, directories are branches and files are leaves. Contributors to the source code appear and disappear as they contribute to specific files and directories. [Example](https://www.youtube.com/watch?v=P_02QGsHzEQ).
