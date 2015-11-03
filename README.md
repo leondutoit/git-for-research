@@ -11,7 +11,12 @@ If you need a refresher or an introduction to using the command line then I sugg
 #### Option 1: use a virtual machine
 
 * [download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* download the course VM (coming soon)
+* [download](https://dl.dropboxusercontent.com/u/104325750/pydatsci_vm.zip) the course VM, unzip it
+* start VirtualBox
+* add the vm: `Machines` -> `Add` -> `path-to-folder`
+* start the vm
+* the username is `leon` and the password is `wp`
+* start the terminal: press `alt + ctrl + t`
 
 #### Option 2: install git yourself
 
