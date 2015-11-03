@@ -5,7 +5,7 @@ Why use git? Because it makes collaboration a joy and gives you an audit trail o
 
 Even when you work alone on a project you collaborate with yourself in the future. Often you collaborate with yourself on multiple devices - a home and work machine, for example. Git helps you manage this in an efficient way: easily sync your project over multiple devices.
 
-Workflow can be complex even when working alone but the really painful issues arise when collaborating with others. What if many people edit the same files at the same time? How does one handle conflicting changes? Git allows you to track changes per person, byte-by-byte and gives you methods to resolve conflicts in a programmatic way.
+Workflows can be complex even when working alone but the really painful issues arise when collaborating with others. What if many people edit the same files at the same time? How does one handle conflicting changes? Git allows you to track changes per person, byte-by-byte and gives you methods to resolve conflicts in a programmatic way.
 
 Git succeeds when simple remote file system synchronisation tools like Dropbox fail.
 
@@ -141,7 +141,7 @@ We simulated a small part of this when I made changes and you pulled them with a
 
 #### forking and pull requests
 
-You can follow the instruction [on github](https://help.github.com/articles/using-pull-requests/).
+You can follow the instructions [on github](https://help.github.com/articles/using-pull-requests/).
 
 ### commands reference
 
