@@ -76,7 +76,9 @@ git commit -m 'newfile added'
 # remove files
 git rm newfile
 git commit -m 'removing newfile from repo'
+```
 
+```
 # clone a repo
 cd ..
 git clone https://github.com/leondutoit/git-for-research.git
@@ -110,7 +112,9 @@ git log -n 5
 git log feature --not master
 git merge feature
 git log -n 5
+```
 
+```
 # find out who changed what
 # do this in the git-for-research repo
 git blame README.md
@@ -130,7 +134,6 @@ git checkout newbranch
 # _and_ have not shared the commits with anyone else
 # E.g. if you have only commited locally and you want to start over
 # do: git reset --hard <hash>
-
 ```
 
 ### collaborative workflows
