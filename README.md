@@ -23,6 +23,10 @@ If you need a refresher or an introduction to using the command line then I sugg
 * [download git](https://git-scm.com/downloads)
 * make sure you can run git from the command line
 
+#### Option 3: use a remote machine
+
+As long as git is available there :)
+
 ### Course outline
 
 * motivation: use cases
