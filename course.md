@@ -138,6 +138,8 @@ git checkout newbranch
 # do: git reset --hard <hash>
 ```
 
+This [article](http://www.alexkras.com/19-git-tips-for-everyday-use/) contains some helpful tips on how to enhance your daily git workflow.
+
 ### collaborative workflows
 
 #### pushing to the same repo
