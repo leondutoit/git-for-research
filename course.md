@@ -188,7 +188,7 @@ To collaborate you need to host your remote repo somewhere. If you are not going
 
 ### using git to gain insight
 
-Using [gource](http://gource.io/) to visualise repo development. The repository is displayed as a tree where the root of the repository is the centre, directories are branches and files are leaves. Contributors to the source code appear and disappear as they contribute to specific files and directories. [Example](https://www.youtube.com/watch?v=P_02QGsHzEQ).
+Using [gource](http://gource.io/) to visualise repo development. The repository is displayed as a tree where the root of the repository is the centre, directories are branches and files are leaves. Contributors to the source code appear and disappear as they contribute to specific files and directories. [Example](https://www.youtube.com/watch?v=P_02QGsHzEQ). Github hosts an [archive](https://www.githubarchive.org/) of repo activity which can be analysed.
 
 ### what next?
 
