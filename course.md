@@ -1,7 +1,7 @@
 
 ### motivation: use cases
 
-You simply have to use it :)
+You simply have to use it :)      
 
 Why use git? Because it makes collaboration a joy and gives you an audit trail of each change you make to your project while maintaining data integrity. This improves productivity and transparency.
 
@@ -27,7 +27,7 @@ Version control, in general, is the management of changes to documents.
 
 * `branches`: all work in a repository happens on a specific branch. A branch can be seen as a specific line of work, a series of changes that are applied to files. A branch can be used, for example, to develop new features while making sure that other work is not affected.
 
-### practical session
+### practical session command line
 
 We'll take a learning by doing approach. We will work in a repo that we create ourselves and in one we download from the web.
 
