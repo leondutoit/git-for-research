@@ -1,4 +1,4 @@
-### git-for-research
+### git_for_Research
 
 Solve collaboration problems and keep track of changes with version control.
 
